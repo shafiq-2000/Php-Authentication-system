@@ -1,0 +1,18 @@
+Db name:auth_system_part2
+table->there are one table name 'users' table.
+column name:
+ CREATE TABLE `users` (
+  `id` int(55) NOT NULL,
+  `name` varchar(55) NOT NULL,
+  `email` varchar(55) NOT NULL,
+  `password` varchar(55) NOT NULL,
+  `phone` int(55) NOT NULL,
+  `token` varchar(55) NOT NULL,
+  `status` varchar(55) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+Project over view:
+-Authentication system
+-Email varification system
+-Using the Forgate Password and then new password create.
